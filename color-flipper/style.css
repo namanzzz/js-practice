@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+    font-family:monospace;
+    text-align: center;
+    margin-top: 28px;
+    font-size:25px;
+    
+}
+.container{
+    text-align: center;
+    margin-top: 20%;
+}
+
+.btn{
+    padding: 5px 5px;
+    font-size: 20px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+
+}
+
+#green{
+    background-color: green;
+}
+#red{
+    background-color: red;
+}
+#blue{
+    background-color: blue;
+}
+#random{
+    background-color: aqua;
+}
