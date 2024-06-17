@@ -12,15 +12,18 @@
 }
 .container{
     text-align: center;
+    display: block;
     margin-top: 20%;
 }
 
 .btn{
-    padding: 5px 5px;
+    padding: 8px 15px;
     font-size: 20px;
     border-radius: 3px;
+    width: fit-content;
     border: none;
     cursor: pointer;
+    margin: 0 8px;
 
 }
 
@@ -35,4 +38,14 @@
 }
 #random{
     background-color: aqua;
+}
+
+
+.btn:hover{
+    font-size: 30px;
+    transition: ease-in-out .5s;
+}
+
+.btn:visited{
+    
 }
