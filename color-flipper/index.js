@@ -19,7 +19,7 @@ const heading = document.getElementsByClassName('heading')[0];
 //     heading.textContent = 'Color Blue'
 // }
 
-// repeated code above, need to optimize
+// repeated code above, need to shorten
 const toColor = (color) => {
     window.console.log('change color to blue');
     window.document.body.style.backgroundColor = `${color}`;
