@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: antiquewhite;
+}
+body{
+    font-family: monospace;
+}
+.container{
+    text-align: center;
+    margin-top: 20%;
+    display:block;
+}
+
+.field{
+    padding: 10px 40px;
+    width: max-content;
+    font-family: monospace;
+    font-size: 18px;
+    border: none;
+    /* border-style: hidden; */
+}
+.btn{
+    left: 10px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: black;
+    border: 2px solid;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover{
+    padding: 10px 30px;
+    transition: ease-in-out .5s;
+
+}
+
